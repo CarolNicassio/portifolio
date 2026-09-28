@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+</head>
+<body style="background-color: #ffe9f8;">
+     <header>
+
+        <strong><h1 style="color: #660045; ">Carol Queiroz - Desenvolvedora Web</h1></strong>
+
+        <nav>
+            <ul>
+                <strong><li><a style="color: #000000;" href="#sobre">Sobre mim</a></li></strong>
+                <strong><li><a style="color: #000000;" href="#projetos">Projetos</a></li></strong>
+                <strong><li><a style="color: #000000;" href="#contato">Contato</a></li></strong>
+            </ul>
+        </nav>
+
+        <!-- Colocando Informações -->
+         <hr>
+    <main>
+        <section id="sobre">
+            <h1 style="color: #660045;">Sobre Mim</h1>
+            <img src="Minha_foto.png" width="201" height="205">
+            <p style="color: #000000;">
+                Sou estudante de <strong style="color: #660045;">desenvolvimento de sistemas</strong> e comecei a estudar tecnologia e inovação. No momento,estou aprendendo sobre HTML, PHP e Banco de Dados
+            </p>
+            <h1 style="color: #660045;">Minhas Habilidades</h1>
+            <ul>
+                <strong><li >HTML</li></strong>
+                <strong><li>PHP</li></strong>
+                <strong><li>Design</li></strong>
+            </ul>
+        </section>
+        <hr>
+        <!-- Projetos -->
+ <section id="projetos">
+
+            <h1 style="color: #660045;">Projetos</h1>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th style="color: #660045;">Projeto</th>
+                        <th style="color: #660045;">Tecnologias</th>
+                        <th style="color: #660045;">Status</th>
+                        <th style="color: #660045;">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color: #660045;">Loja de Games Retro</td>
+                        <td style="color: #660045;">HTML</td>
+                        <td style="color: #660045;">Concluído</td>
+                        <td>
+                            <a style="color: #660045;" href="https://github.com/CarolNicassio/games_retro_HTML" target="">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #660045;">Prototipação Spotify</td>
+                        <td style="color: #660045;">Figma</td>
+                        <td style="color: #660045;">Concluído</td>
+                        <td>
+                            <a style="color: #660045;" href="https://github.com/CarolNicassio/prototipacao_spotify/" target="">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #660045;">Projeto Filme</td>
+                        <td style="color: #660045;">HTML</td>
+                        <td style="color: #660045;">Concluído</td>
+                        <td>
+                            <a style="color: #660045;" href="https://github.com/CarolNicassio/projeto-filme" target="">
+                                Ver projeto
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+         </table>
+        </section>
+        <hr>
+        <section id="contato">
+            <h1 style="color: #660045;">Entre em Contato</h1>
+            <form action="processar.php" method="POST">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Oportunidade de Trabalho</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="reclamacao">Reclamação</option>
+                    </select>
+                    <br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Enviar Mensagem">
+                    <input type="reset" value="Limpar">
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Carol Queiroz. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a style="color: #660045;" href="cqueiroznicassioc@gmail.com">cqueiroznicassioc@gmail.com</a> |
+            <a style="color: #660045;" href="tel:+5511123456789">(11) 12345-6789</a>
+        </p>
+    </footer>
+</body>
+</html>
